@@ -22,7 +22,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-               bat 'cd project-manager-service && mvn package docker:build'
+               bat 'cd project-service-api && mvn package docker:build'
             }
         }
     }
