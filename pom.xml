@@ -31,6 +31,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	
 	<modules>
 		<module>project-service-ui</module>
 		<module>project-service-api</module>
