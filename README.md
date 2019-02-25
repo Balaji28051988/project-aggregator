@@ -4,7 +4,7 @@ Application Structure: Parent maven project(project-aggregator) with two depende
 
 project-service-api - Maven Spring boot project for exposing rest endpoints + MySql project-service-ui - Angular CLI for building UI and connects with rest endpoints exposed
 
-Git Repository: https://github.com/thangavelindian1/project-aggregator.git
+Git Repository: https://github.com/Balaji28051988/project-aggregator.git
 
 Maven Build Commands for the final artifacts:
 
