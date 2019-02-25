@@ -76,7 +76,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "codeCoverage": true,
+            "codeCoverage": false,
             "codeCoverageExclude": [
               "src/app/**/*.spec.ts",
               "src/app/shared/**"
