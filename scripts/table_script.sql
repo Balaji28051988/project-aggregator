@@ -5,8 +5,9 @@ CREATE TABLE USER (
     employee_id VARCHAR(100) NOT NULL,
     PRIMARY KEY (user_id),
 	UNIQUE (employee_id)
-);
+	);
 
+	
 CREATE TABLE PROJECT (
     project_id INT NOT NULL AUTO_INCREMENT,
     project VARCHAR(100) NOT NULL,
