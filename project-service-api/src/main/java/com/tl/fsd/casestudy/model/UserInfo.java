@@ -3,7 +3,7 @@ package com.tl.fsd.casestudy.model;
 /**
  * User Model Object
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 public class UserInfo {

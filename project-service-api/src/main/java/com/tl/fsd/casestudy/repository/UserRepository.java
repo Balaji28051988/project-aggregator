@@ -10,7 +10,7 @@ import com.tl.fsd.casestudy.entity.User;
 /**
  * Repository for User
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 

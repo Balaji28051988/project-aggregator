@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
  * This class is used as filter class to allow endpoints for different headers
  * for our application
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 @Component

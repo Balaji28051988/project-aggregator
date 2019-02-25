@@ -37,7 +37,7 @@ import com.tl.fsd.casestudy.service.ProjectManagerService;
 /**
  * Test class for unit testing ProjectManager Controller
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 @RunWith(SpringRunner.class)

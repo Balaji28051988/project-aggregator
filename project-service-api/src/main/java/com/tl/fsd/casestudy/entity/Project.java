@@ -19,7 +19,7 @@ import javax.persistence.TemporalType;
 /**
  * This class is an entity for Project table
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 @Entity

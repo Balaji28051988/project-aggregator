@@ -10,7 +10,7 @@ import javax.persistence.Table;
 /**
  * This class is an entity for User table
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 

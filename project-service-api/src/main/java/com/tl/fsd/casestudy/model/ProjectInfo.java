@@ -3,7 +3,7 @@ package com.tl.fsd.casestudy.model;
 /**
  * Project Model Object
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 import java.util.Date;

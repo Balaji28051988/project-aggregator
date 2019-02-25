@@ -13,7 +13,7 @@ import com.tl.fsd.casestudy.config.CorsFilter;
  * This class acts as application startup for starting Project Manager
  * application as Spring boot application
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 @SpringBootApplication

@@ -34,7 +34,7 @@ import com.tl.fsd.casestudy.repository.UserRepository;
 /**
  * Test class for unit testing ProjectManager DAO
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 @RunWith(MockitoJUnitRunner.class)

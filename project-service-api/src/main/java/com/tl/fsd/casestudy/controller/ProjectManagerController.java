@@ -23,7 +23,7 @@ import com.tl.fsd.casestudy.service.ProjectManagerService;
  * This class acts as a controller for exposing different endpoints of Project
  * Manager application
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 @RestController

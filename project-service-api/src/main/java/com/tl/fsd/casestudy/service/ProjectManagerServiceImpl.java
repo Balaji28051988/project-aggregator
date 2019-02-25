@@ -22,7 +22,7 @@ import com.tl.fsd.casestudy.model.UserInfo;
 /**
  * Service class for operations of Project Manager application
  * 
- * @author 456206
+ * @author Balaji
  *
  */
 

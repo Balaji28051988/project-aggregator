@@ -12,7 +12,7 @@ clean install -e	[run the command for project-service-api project which will bui
 
 Commands to run the created image and validate the image:
 
-Connect to the remote docker machine To check whether the image is created in docker container dockerx image ls To run the created image in docker dockerx run -p 8089:8089 456206-project-manager   latest To check whether the image is running in docker[open new cmd prompt and run the cmd] dockerx ps To validate whether the application is working fine using curl command i) connect to bash shell in the container. [take container id of the image created from dockers ps] dockerx exec -it [CONTAINER_ID] bash ii) check whether application is working [it will return custom techincal error from the service exposed since mysql db is not available in docker] curl http://localhost:8085/project-manager/getusersdetails
+Connect to the remote docker machine To check whether the image is created in docker container dockerx image ls To run the created image in docker dockerx run -p 8089:8089 Balaji-project-manager   latest To check whether the image is running in docker[open new cmd prompt and run the cmd] dockerx ps To validate whether the application is working fine using curl command i) connect to bash shell in the container. [take container id of the image created from dockers ps] dockerx exec -it [CONTAINER_ID] bash ii) check whether application is working [it will return custom techincal error from the service exposed since mysql db is not available in docker] curl http://localhost:8085/project-manager/getusersdetails
 
 Commands for local development:
 
