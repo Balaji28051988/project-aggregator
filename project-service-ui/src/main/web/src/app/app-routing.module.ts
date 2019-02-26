@@ -4,7 +4,6 @@ import { UpdatetaskComponent } from './updatetask/updatetask.component';
 import { ViewtaskComponent } from './viewtask/viewtask.component';
 import { UserComponent } from './user/user.component';
 import { ProjectComponent } from './project/project.component';
-
 const routes: Routes = [
   { path: '', redirectTo: '/viewTask', pathMatch: 'full' },
   { path: 'viewTask', component: ViewtaskComponent },

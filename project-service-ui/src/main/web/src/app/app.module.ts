@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ViewtaskComponent } from './viewtask/viewtask.component';
@@ -16,7 +15,6 @@ import { ScreenFreezeComponent } from './screenfreeze/screenfreeze.component';
 import { UserComponent } from './user/user.component';
 import { SortPipe } from './shared/sort.pipe';
 import { ProjectComponent } from './project/project.component';
-
 @NgModule({
   declarations: [
     AppComponent,
