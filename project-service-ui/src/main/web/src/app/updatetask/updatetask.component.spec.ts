@@ -15,7 +15,6 @@ import { BackendService } from '../shared/backend-service';
 import { BackendServiceMock } from '../shared/backend-service-mock';
 import { HttpClientModule } from '@angular/common/http';
 import { DatePipe } from '@angular/common';
-
 describe('UpdatetaskComponent', () => {
   let component: UpdatetaskComponent;
   let fixture: ComponentFixture<UpdatetaskComponent>;
@@ -111,7 +110,6 @@ describe('UpdatetaskComponent', () => {
   });
   it('should call selectParentTask', () => {
     let parentTask = {
-
     };
     expect(component.selectParentTask(parentTask)).toBeDefined;
   });

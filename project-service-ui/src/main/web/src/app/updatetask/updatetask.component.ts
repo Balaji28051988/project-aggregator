@@ -5,7 +5,6 @@ import { BackendService } from '../shared/backend-service';
 import { DatePipe } from '@angular/common';
 import { NgForm, FormControl, NgModel } from '@angular/forms';
 declare var jQuery: any;
-
 @Component({
   selector: 'app-updatetask',
   templateUrl: './updatetask.component.html',
@@ -212,7 +211,6 @@ export class UpdatetaskComponent implements OnInit {
     this.taskModel.parentTaskName = "";
     jQuery('#parentTaskModal').modal('hide');
   }
-
   selectParentTask(parentTaskObj: any) {
     jQuery('#parentTaskModal').modal('hide');
     this.taskModel.parentTaskName = parentTaskObj.parentTaskName;
@@ -220,7 +218,6 @@ export class UpdatetaskComponent implements OnInit {
   }
 
   getParentTasks() {
-
     this.backendService.getParentTasks(this.taskModel.projectId).subscribe(
       (data: any) => {
         this.technicalError = false;
@@ -232,7 +229,6 @@ export class UpdatetaskComponent implements OnInit {
         this.screenLoader = false;
       }
     );
-
   }
 
 }

@@ -16,7 +16,6 @@ export class BackendServiceMock {
         ];
         return of(tasks);
     }
-
     getParentTasks(projectId) {
         let parentTasks = [
            

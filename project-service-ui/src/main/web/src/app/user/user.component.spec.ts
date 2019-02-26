@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { UserComponent } from './user.component';
 import { UpdatetaskComponent } from '../updatetask/updatetask.component';
 import { FormsModule } from '@angular/forms';
@@ -30,7 +29,6 @@ describe('UserComponent', () => {
       "empId": ""
     }
   };
-
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [

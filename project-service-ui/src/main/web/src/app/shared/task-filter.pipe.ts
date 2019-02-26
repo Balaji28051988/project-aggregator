@@ -5,7 +5,6 @@ import { Pipe, PipeTransform } from '@angular/core';
   pure: false
 })
 export class TaskFilterPipe implements PipeTransform {
-
   transform(items: any, filter: any, screen: any): any {
     if (!items || !filter || !screen) {
       return items;

@@ -46,7 +46,6 @@ describe('ViewtaskComponent', () => {
     })
       .compileComponents();
   }));
-
   beforeEach(() => {
     service = TestBed.get(BackendService);
     //spyOn(service, 'getTasks').and.returnValue(of([]));

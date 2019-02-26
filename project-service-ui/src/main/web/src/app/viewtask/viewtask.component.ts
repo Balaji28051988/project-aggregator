@@ -5,7 +5,6 @@ import { TaskService } from '../shared/task-service';
 import { BackendService } from '../shared/backend-service';
 import { DatePipe } from '@angular/common';
 declare var jQuery: any;
-
 @Component({
   selector: 'app-viewtask',
   templateUrl: './viewtask.component.html',
@@ -25,7 +24,6 @@ export class ViewtaskComponent implements OnInit {
   searchUsr: string = '';
   constructor(public router: Router, private taskService: TaskService, private backendService: BackendService,
     private datePipe: DatePipe) { }
-
   ngOnInit() {
     this.screenLoader = true;
     this.technicalError = false;
@@ -116,7 +114,6 @@ export class ViewtaskComponent implements OnInit {
         this.screenLoader = false;
       }
     );
-
   }
 
   sortTask(prop: string) {

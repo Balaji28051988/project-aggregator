@@ -6,7 +6,6 @@ import { Config } from '../env/index';
 
 @Injectable()
 export class BackendService {
-
   constructor(private httpClient: HttpClient, private router: Router) { }
 
   getTasks(projectId) {
@@ -60,5 +59,4 @@ export class BackendService {
       inputParam,
       { headers: headers });
   }
-
 }

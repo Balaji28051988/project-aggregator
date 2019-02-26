@@ -5,7 +5,6 @@ import { Component, ViewEncapsulation, OnInit } from '@angular/core';
   templateUrl: 'screenfreeze.component.html',
   styleUrls: ['screenfreeze.component.css']
 })
-
 export class ScreenFreezeComponent implements OnInit {
 
   ngOnInit() {

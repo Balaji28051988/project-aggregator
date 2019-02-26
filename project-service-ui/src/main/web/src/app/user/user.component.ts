@@ -4,7 +4,6 @@ import { TaskService } from '../shared/task-service';
 import { BackendService } from '../shared/backend-service';
 import { NgForm, FormControl, NgModel } from '@angular/forms';
 declare var jQuery: any;
-
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
@@ -76,7 +75,6 @@ export class UserComponent implements OnInit {
     this.getUsers();
     return;
   }
-
   getUsers() {
     var inputParam = {
     };
@@ -92,7 +90,6 @@ export class UserComponent implements OnInit {
         this.screenLoader = false;
       }
     );
-
   }
 
   deleteUser(userId) {
