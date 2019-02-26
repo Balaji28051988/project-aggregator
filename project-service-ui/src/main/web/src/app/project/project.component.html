@@ -253,6 +253,7 @@
                 <button type="button" class="close" data-dismiss="modal" (click)="closeProjectModal()">&times;</button>
             </div>
             <!-- model body section -->
+            
             <div class="modal-body">
                 <div class="list-group" *ngIf="null != userModelList && userModelList.length > 0">
                     <button *ngFor="let userModel of userModelList| taskFilter:searchUsr:'userScreen'" type="button" data-dismiss="modal" class="list-group-item list-group-item-action"

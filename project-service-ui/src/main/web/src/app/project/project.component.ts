@@ -16,7 +16,6 @@ export class ProjectComponent implements OnInit {
   @ViewChild('projectForm') projectForm: NgForm;
 
   searchUsr: string = '';
-
   projectModel: any = {
     "projectId": 0,
     "projectName": "",
@@ -188,7 +187,6 @@ export class ProjectComponent implements OnInit {
     this.projectModel.userName = userObj.firstName + " " + userObj.lastName;
     this.projectModel.userId = userObj.userId;
   }
-
   getUsers() {
     var inputParam = {
     };

@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { UserComponent } from '../user/user.component';
 import { UpdatetaskComponent } from '../updatetask/updatetask.component';
 import { FormsModule } from '@angular/forms';
@@ -21,7 +20,6 @@ describe('ProjectComponent', () => {
   let component: ProjectComponent;
   let fixture: ComponentFixture<ProjectComponent>;
   let service: BackendService;
-
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
@@ -95,7 +93,7 @@ describe('ProjectComponent', () => {
       "endDate": new Date(new Date().getTime() + (1000 * 60 * 60 * 24)),
       "priority": 10,
       "userId": 1,
-      "userName": "Madhan"
+      "userName": "Balaji"
     };
     expect(component.editProject(projectModel)).toBeDefined;
   });
