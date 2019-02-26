@@ -30,8 +30,7 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-	</dependencies>
-	
+	</dependencies>	
 	<modules>
 		<module>project-service-ui</module>
 		<module>project-service-api</module>
